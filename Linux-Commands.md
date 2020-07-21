@@ -4,15 +4,16 @@
 ### Objetivos
 Los objetivos de esta práctica son:
 
-* 1
-* 2
+* Que el alumnado sepa conectarse a la máquina virtual IaaS de la asignatura
+* Saber ejecutar comandos básicos de Linux, así como obtener información sobre los mismos
 
-
-### Rúbrica de evaluacion del ejercicio
+### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
-* Se valorará 
-* Se valorará 
+* El alumnado ha de acreditar que conoce el funcionamiento de los comandos básicos de linux estudiados
+* Ha de acreditarse que se es capaz de conectarse a la máquina virtual de la asignatura y ejecutar comandos
+básicos de Linux para al menos: copiar, borrar y editar ficheros, crear directorios y compilar un programa en
+C++ 
 
 
 **Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
@@ -25,7 +26,7 @@ trabajo mediante comandos también es casi obligatorio en entornos cliente/servi
 Por otra parte, la familiaridad con Unix mejorará la empleabilidad de cualquier ingeniero en informática.
 
 Si ya está familiarizado con Linux, esta práctica será muy corta. 
-Si es Ud. nueva/o en Linux le tomará más tiempo, así que prepárese en consecuencia!
+Si es Ud. nueva/o en Linux le tomará más tiempo, así que prepárese en consecuencia.
 
 En esta práctica no se va a programar comandos sino que los ejercicios están orientados a conocer los fundamentos del uso de Unix.  
 Este conocimiento básico será necesario para completar sus tareas de programación en otras prácticas futuras
@@ -39,7 +40,7 @@ asignatura. Recuerde que para ello necesita Ud. un cliente ssh.
 ssh usuario@<dirección IP de su máquina>
 ```
 Recuerde que la dirección IP de su máquina tiene un formato similar a `10.6.129.147`
-* Si se conecta Ud. desde un sistema Windows, un cliente ssh que le recomendamos es [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+* Si se conecta Ud. desde un sistema Windows, un cliente ssh recomendado es [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * Si se conecta Ud. desde un sistema Mac, abra una ventana de terminal (en 'Aplicaciones/utilidades') y
 ejecute
 ```
@@ -50,8 +51,9 @@ Recuerde siempre que si se conecta Ud. desde fuera del campus ULL ha de instalar
 [cliente VPN](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).
 
 ### Comandos Linux
-Estudie en [este tutorial](http://linuxcommand.org/index.php)  
-al menos hasta el final de la sección 7 (**I/O Redirection**) en el capítulo "Learning the Shell" aunque ¡no le hará daño leer más!.
+Estudie en [este tutorial](http://linuxcommand.org/index.php) al menos hasta el final de la sección 7 
+(*"I/O Redirection"*) en el capítulo *"Learning the Shell"* aunque puede Ud. estudiar más allá de ese punto,
+si lo desea.
 
 Pruebe en su máquina virtual los comandos que estudie en el tutorial.
 
@@ -86,7 +88,7 @@ programa.
 
 6. ¿Cómo se muestra un fichero de texto largo para que se detenga en cada pantalla?  
 Practique mostrando en pantalla el contenido del fichero `/proc/cpuinfo` que contiene información sobre las CPUs de su
-máquina virtual.
+máquina.
 
 7. ¿Qué contiene el fichero de texto `long-text-file.txt` que se encuentra en su directorio de trabajo?
 
@@ -109,8 +111,9 @@ Use grep para encontrar todas las palabras que contengan "aula" en ese fichero. 
 11. Use un *pipe* (encadenamiento de comandos).
 El comando `wc` (de *Word Count*) indica cuántas líneas, palabras y caracteres hay en un fichero.
 Utilice el comando `man` para conocer el funcionamiento de `wc`, así como información detallada del comando.
+Utilizando `wc` averigüe cuantas líneas, palabras y caracteres contiene el fichero `long-text-file.txt`
 
-Utilice un *pipe* (usando el caracter `|`) para vincular los dos comandos anteriores entre sí, para averiguar 
+Utilice un *pipe* (usando el caracter `|`) para vincular los dos comandos anteriores (`grep` y `wc`) entre sí, para averiguar 
 cuantas veces aparecen en el fichero `long-text-file.txt` cada una de las palabras que contienen la subpalabra "aula".
 Escriba un fichero de texto `aula.txt` en el que figure cada una de estas palabras y el número de veces que
 aparece en el fichero `long-text-file.txt`.
