@@ -1,11 +1,11 @@
 # Práctica 02. Comandos básicos en el Sistema Operativo Linux
 
-
 ### Objetivos
-Los objetivos de esta práctica son:
+Los objetivos de esta práctica son que el alumnado:
 
-* Que el alumnado sepa conectarse a la máquina virtual IaaS de la asignatura
-* Saber ejecutar comandos básicos de Linux, así como obtener información sobre los mismos
+* Sea capaz de conectarse a la máquina virtual (VM) IaaS de la asignatura
+* Sepa ejecutar comandos básicos de Linux, así como obtener información sobre los mismos
+* Sepa editar ficheros remotos en la VM de la asignatura usanso el Visual Studio Code (VSC)
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
@@ -14,7 +14,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Ha de acreditarse que se es capaz de conectarse a la máquina virtual de la asignatura y ejecutar comandos
 básicos de Linux para al menos: copiar, borrar y editar ficheros, crear directorios y compilar un programa en
 C++ 
-
+* Ha de acreditar que es capaz de editar ficheros remotos en la VM de la asignautra usando VSC
 
 **Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
 ### Introducción
@@ -47,7 +47,7 @@ ejecute
 ssh usuario@<dirección IP de su máquina>
 ```
 
-Recuerde siempre que si se conecta Ud. desde fuera del campus ULL ha de instalar e iniciar sesión usando un
+Recuerde también que si se conecta Ud. desde fuera del campus ULL ha de instalar e iniciar sesión usando un
 [cliente VPN](https://www.ull.es/servicios/stic/2016/05/10/servicio-de-vpn-de-la-ull/).
 
 ### Comandos Linux
@@ -58,8 +58,8 @@ si lo desea.
 Pruebe en su máquina virtual los comandos que estudie en el tutorial.
 
 ### Ejercicios
-1. Cree un subdirectorio `practicas` en su directorio `home` (`~`) y clone (haga una copia) dentro de él del repositorio de esta
-práctica en el (sub) directorio `IB-p02-LinuxCommands`.
+1. Si no ha sido creado anteriormente, cree un subdirectorio `practicas` en su directorio `home` (`~`) y 
+clone (haga una copia) dentro de él del repositorio de esta práctica en el (sub) directorio `IB-p02-LinuxCommands`.
 A este último directorio nos referiremos como 'directorio de trabajo'.
 Para ello ejecute:
 ```
@@ -69,7 +69,7 @@ cd practicas
 git clone git@github.com:fsande/IB-P02-LinuxCommands.git IB-p02-LinuxCommands
 ```
 
-2. Entre en el directorio `IB-p02-LinuxCommands`. 
+2. Entre en el directorio de trabajo (`IB-p02-LinuxCommands`). 
 Encontrará en él el fichero `ProgrammingJoke.txt`. 
 ¿Cuál es el chiste?.
 Busque cualquier otro chiste famoso de programadores y añada el texto del nuevo chiste a continuación de éste.
