@@ -117,3 +117,21 @@ Utilice un *pipe* (usando el caracter `|`) para vincular los dos comandos anteri
 cuantas veces aparecen en el fichero `long-text-file.txt` cada una de las palabras que contienen la subpalabra "aula".
 Escriba un fichero de texto `aula.txt` en el que figure cada una de estas palabras y el número de veces que
 aparece en el fichero `long-text-file.txt`.
+
+12. Siga 
+[estas instrucciones](https://code.visualstudio.com/docs/cpp/config-linux)
+para 
+* Instalar/configurar en su casa (en las salas del Centro de Cálculo debería estar instalada) la extensión para trabajar con C/C++.
+* Compruebe que el compilador gcc/g++ estén instalado.
+* Instale (si no lo está) el depurador gdb.
+* Y siga el resto de ese tutorial para crear en VSC su primer proyecto `helloworld.cc`
+* En particular debe Ud. estudiar la
+[User Interface documentation](https://code.visualstudio.com/docs/getstarted/userinterface)
+para conocer los detalles de la interfaz de VSC y ser capaz de manejarse con la misma.  
+Tal como indica el tutorial, cree el fichero de texto `tasks.json` que gestiona la compilación de sus proyectos C++.
+Asegúrese de que en ese fichero el compilador que utiliza es `/usr/bin/g++`.  
+Siga también las instrucciones de ese tutorial para crear el fichero `launch.json` que controla la depuración del código fuente desde el entorno integrado del VSC usando como depurador el gdb.
+Comience los primeros pasos de la depuración del programa `helloworld.cc` usando el VSC.
+
+
+
