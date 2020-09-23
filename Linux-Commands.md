@@ -125,9 +125,8 @@ Si trabaja Ud. desde un entorno Windows siga [estas instrucciones](https://code.
 
 13. Siga 
 [estas instrucciones](https://code.visualstudio.com/docs/cpp/config-linux)
-para 
-* Instalar/configurar en su casa (en las salas del Centro de Cálculo debería estar instalada) la extensión para trabajar con C/C++ en Visual Studio Code.
-* Compruebe que el compilador gcc/g++ estén instalado.
+para instalar/configurar en su ordenador de trabajo (en las salas del Centro de Cálculo debería estar instalada) la extensión para trabajar con C/C++ en Visual Studio Code.
+* Compruebe que el compilador gcc/g++ esté instalado.
 * Instale (si no lo está) el depurador gdb.
 * Y siga el resto de ese tutorial para crear en VSC su primer proyecto `helloworld.cc`
 * En particular debe Ud. estudiar la
@@ -136,7 +135,7 @@ para conocer los detalles de la interfaz de VSC y ser capaz de manejarse con la 
 Tal como indica el tutorial, cree el fichero de texto `tasks.json` que gestiona la compilación de sus proyectos C++.
 Asegúrese de que en ese fichero el compilador que utiliza es `/usr/bin/g++`.  
 Siga también las instrucciones de ese tutorial para crear el fichero `launch.json` que controla la depuración del código fuente desde el entorno integrado del VSC usando como depurador el gdb.
-Comience los primeros pasos de la depuración del programa `helloworld.cc` usando el VSC.
+Comience los primeros pasos de la depuración del programa `hello_world.cc` usando el VSC.
 
 
 
