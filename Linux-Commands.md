@@ -84,7 +84,7 @@ programa.
 
 4. ¿Cuál es el comando para borrar un fichero? Por ejemplo, ¿cómo eliminaría el fichero `a.out` resultado de la compilación en el paso anterior?
 
-5. ¿Qué comando usaría para cambiar el nombre de `square.cc` a `numbers-square.cc`?
+5. ¿Qué comando usaría para cambiar el nombre de `square.cc` a `square_numbers.cc`?
 
 6. ¿Cómo se muestra un fichero de texto largo para que se detenga en cada pantalla?  
 Practique mostrando en pantalla el contenido del fichero `/proc/cpuinfo` que contiene información sobre las CPUs de su
@@ -118,10 +118,15 @@ cuantas veces aparecen en el fichero `long-text-file.txt` cada una de las palabr
 Escriba un fichero de texto `aula.txt` en el que figure cada una de estas palabras y el número de veces que
 aparece en el fichero `long-text-file.txt`.
 
-12. Siga 
+12. En las salas del CC de la ESIT ya se encuentra instalado el Visual Studio Code (VSC) pero también es imprescindible que lo instale Ud. en su ordenador de trabajo habitual. 
+Si trabaja Ud. en GNU/Linux (como se recomienda) siga las instrucciones correspondientes a 
+["Debian and Ubuntu based distributions"](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions) para instalar VSC.
+Si trabaja Ud. desde un entorno Windows siga [estas instrucciones](https://code.visualstudio.com/docs/setup/windows) para su instalación.
+
+13. Siga 
 [estas instrucciones](https://code.visualstudio.com/docs/cpp/config-linux)
 para 
-* Instalar/configurar en su casa (en las salas del Centro de Cálculo debería estar instalada) la extensión para trabajar con C/C++.
+* Instalar/configurar en su casa (en las salas del Centro de Cálculo debería estar instalada) la extensión para trabajar con C/C++ en Visual Studio Code.
 * Compruebe que el compilador gcc/g++ estén instalado.
 * Instale (si no lo está) el depurador gdb.
 * Y siga el resto de ese tutorial para crear en VSC su primer proyecto `helloworld.cc`
