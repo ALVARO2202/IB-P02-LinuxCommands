@@ -132,13 +132,7 @@ para instalar/configurar en su ordenador de trabajo (en las salas del Centro de 
 * En particular debe Ud. estudiar la
 [User Interface documentation](https://code.visualstudio.com/docs/getstarted/userinterface)
 para conocer los detalles de la interfaz de VSC y ser capaz de manejarse con la misma.  
-Tal como indica el tutorial, cree el fichero de texto `tasks.json` que gestiona la compilación de sus proyectos C++.
-Asegúrese de que en ese fichero el compilador que utiliza es `/usr/bin/g++`.  
-Siga también las instrucciones de ese tutorial para crear el fichero `launch.json` que controla la depuración del código fuente desde el entorno integrado del VSC usando como depurador el gdb.
-Comience los primeros pasos de la depuración del programa `hello_world.cc` usando el VSC.
 
-Recuerde que además de gestionar sus proyectos de programación usando VSC siempre puede utilizar la línea de comandos para compilar
-sus programas C++, invocando directamente al compilador g++.
-
+Recuerde que se usará VSC para la edición de los programas, mientras que la compilación y ejecución de los mismos se realizará usando la línea de comandos o bien en una conexión ssh con la VM o usando la pestaña "Termnial" del VSC.
 
 
